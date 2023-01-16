@@ -10,3 +10,11 @@ spring:
           uri: http://localhost:8082
           predicates:
             - Path=/departement/**
+        - id: route3
+          uri: http://localhost:8083
+          predicates:
+            - Path=/client/**
+        - id: route4
+          uri: http://localhost:8084
+          predicates:
+            - Path=/fournisseur/**
