@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94b50193-9f97-4b7a-976d-236a56af08a5" name="Changes" comment="" />
+    <list default="true" id="94b50193-9f97-4b7a-976d-236a56af08a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/entreprisemanagement/clientservice/dto/ClientRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/entreprisemanagement/clientservice/dto/ClientResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fournisseur-service/src/main/java/com/entrepriseservice/fournisseurservice/Repository/FournisseurRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fournisseur-service/src/main/java/com/entrepriseservice/fournisseurservice/controller/FournisseurController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fournisseur-service/src/main/java/com/entrepriseservice/fournisseurservice/dto/FournisseurRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fournisseur-service/src/main/java/com/entrepriseservice/fournisseurservice/dto/FournisseurResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fournisseur-service/src/main/java/com/entrepriseservice/fournisseurservice/model/Fournisseur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fournisseur-service/src/main/java/com/entrepriseservice/fournisseurservice/service/FournisseurService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employe-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../employe-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employe-service/src/main/java/com/employeservice/employeservice/repository/EmployeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employe-service/src/main/java/com/employeservice/employeservice/repository/EmployeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employe-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../employe-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -49,31 +65,41 @@
     </option>
   </component>
   <component name="ProjectId" id="2KHeQkCnJ23TM3y5ipYq1LRMpyT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ac487705b25343ad147adc2ea98fc97b&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "show.run.dashboard.notification": "false",
+    "spring.configuration.checksum": "ac487705b25343ad147adc2ea98fc97b"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.departementservice.departementservice.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.DepartementServiceApplication">
+    <configuration name="DepartementServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="department-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.departementservice.departementservice.DepartementServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DepartementServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="departement-service" />
+      <option name="ACTIVE_PROFILES" />
+      <module name="department-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.departementservice.departementservice.DepartementServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,6 +119,7 @@
       <workItem from="1673778353749" duration="5719000" />
       <workItem from="1673785825346" duration="32000" />
       <workItem from="1673785961019" duration="20827000" />
+      <workItem from="1673882511564" duration="1281000" />
     </task>
     <servers />
   </component>

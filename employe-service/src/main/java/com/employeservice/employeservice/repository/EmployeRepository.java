@@ -9,7 +9,6 @@ import java.util.List;
 @RepositoryRestResource
 public interface EmployeRepository extends JpaRepository<Employe, Long> {
 
-
     List<Employe> findByDepartementId(Long departementId);
 }
 
