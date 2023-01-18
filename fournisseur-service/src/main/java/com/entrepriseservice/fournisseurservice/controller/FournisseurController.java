@@ -42,6 +42,7 @@ public class FournisseurController {
     public void deleteFournisseur(@PathVariable("fournisseurId") int fournisseurId){
        fournisseurService.deleteFournisseur(fournisseurId);
     }
+
 	//get all fournisseur
 	@GetMapping
 	@ResponseStatus(HttpStatus.OK)

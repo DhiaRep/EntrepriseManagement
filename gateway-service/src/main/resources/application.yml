@@ -2,6 +2,10 @@ spring:
   cloud:
     gateway:
       routes:
+        - id: route0
+          uri: http://localhost:8080
+          predicates:
+            - Path=/enterprise/**
         - id: route1
           uri: http://localhost:8081
           predicates:
